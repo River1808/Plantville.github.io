@@ -22,7 +22,7 @@ body {
     border-radius: 10px;
     background: transparent;
     padding: 30px 40px;
-    box-shadow: 7px 7px 60px #717171;
+    box-shadow: 7px 7px 60px #848484;
     margin-right: -700px;
 }
 
@@ -54,10 +54,10 @@ body {
 .input-box input{
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: rgba(255, 254, 253, 0.5);
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 40px;
     font-size: 16px;
     color: #000;
@@ -110,7 +110,7 @@ body {
     color: #ffffff  ;
     font-weight: 500;
     margin: 10px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -141,6 +141,5 @@ body {
     display: block;
     width: 600px;
 }
-
 
 
