@@ -4,26 +4,23 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
  
 #database for accounts
-database = 'acc_info.csv'
+database = 'C:\\Users\\DELL\\OneDrive\\Documents\\Soilstuff\\Plantville.github.io\\acc_info.csv'
 
-
-#index page
-@app.route('/')
-def hello_world():
-    return render_template("index.html")
- 
 #registration
 
-@app.route("/register")
-def register():
-    return render_template("registration.html")
-
 #login
-@app.route("/")
+@app.route("/" )
 def index():
-    return render_template("login.html")
+    return render_template("login_page.html")
 
-@app.route('/form_login', methods=['POST', 'GET'])
+@app.route("/home_page", methods=['POST', 'GET'])
+def home_page():
+    return render_template("home_page.html")
+
+@app.route('/register_page.html', methods=['POST', 'GET'])
+def register_page():
+    return render_template("register_page.html")
+
 def login():
 
 #Open the file
@@ -36,20 +33,21 @@ def login():
         print(sline) 
 
     infile.close()
-    name1 = request.form['username']
-    pwd = request.form['password']
-    if name1 not in database:
-        return render_template('login.html', 
+    username = request.form['username']
+    password = request.form['password']
+    if username not in database:
+        return render_template('login_page.html', 
                                info='User does not exist')
     else:
-        if database[name1] != pwd:
-            return render_template('login.html', 
+        if database[username] != password:
+            return render_template('login_page.html', 
                                    info='Wrong password')
         else:
-            return render_template('home.html',
-                                   name=name1)
+            return render_template('home_page.html',
+                                   name=username)
  
  
 #Run flask in debug mode
 if __name__ == '__main__':
+    app.debug = True
     app.run()
