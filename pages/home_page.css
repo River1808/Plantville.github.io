@@ -593,3 +593,213 @@ nav.nav_btn button {
 
 
 }
+
+.group-10 {
+  /* Group 10 */
+
+  position: absolute;
+  width: 1296px;
+  height: 364px;
+  left: 0px;
+  top: 3037px;
+
+
+}
+
+.rectangle-9 {
+  background: url('../assets/images/rectangle_9.png') 50% / cover no-repeat;
+  position: absolute;
+  width: 208px;
+  height: 267px;
+  left: 16px;
+  top: 3134px;
+
+}
+
+.rectangle-10 {
+  background: url('../assets/images/rectangle_10.png') 50% / cover no-repeat;
+  /* Rectangle 10 */
+
+  position: absolute;
+  width: 200px;
+  height: 274px;
+  left: 1045px;
+  top: 3131px;
+
+}
+
+.screenshot-20240616102822-removebg-preview-1 {
+  background: url('../assets/images/screenshot_20240616102822_removebg_preview_1.png') 50% / cover no-repeat;
+  /* Screenshot_2024-06-16_102822-removebg-preview 1 */
+
+  position: absolute;
+  width: 241px;
+  height: 302px;
+  left: -91px;
+  top: 3094px;
+
+}
+
+.screenshot-20240616102957-removebg-preview-1 {
+  background: url('../assets/images/screenshot_20240616102957_removebg_preview_1.png') 50% / cover no-repeat;
+  /* Screenshot_2024-06-16_102957-removebg-preview 1 */
+
+  position: absolute;
+  width: 226px;
+  height: 117px;
+  left: 1078px;
+  top: 3082px;
+
+}
+
+.join-our-growing-community {
+  /* Join our growing community */
+
+  position: absolute;
+  width: 492px;
+  height: 24px;
+  left: 418px;
+  top: 3141px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 24px;
+  /* identical to box height, or 67% */
+  text-align: right;
+
+  color: #102A0E;
+
+
+}
+
+.subscribe-for-more {
+  /* Subscribe for more ! */
+
+  position: absolute;
+  width: 227px;
+  height: 24px;
+  left: 560px;
+  top: 3199px;
+
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+  text-align: right;
+
+  color: #174421;
+
+
+}
+
+.group-4 {
+  /* Group 4 */
+
+  position: absolute;
+  left: 845px;
+  top: 3251px;
+}
+
+.group-4 {
+  border-radius: 35px;
+  background: #EAFBED;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  padding: 12px 13px 12px 9px;
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+}
+
+.arrow-sm-right-svgrepo-com {
+  background: #EAFBED;
+  display: flex;
+  padding: 12.4px 12px;
+  width: 50px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.vector-2 {
+  width: 100px;
+  height: 25px;
+}
+
+.copyright {
+  /* Copyright */
+
+  position: absolute;
+  width: 76px;
+  height: 24px;
+  left: 455px;
+  top: 19px;
+
+  /* Body/Medium/Body 2 */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: right;
+
+  color: #FFFFFF;
+
+}
+
+.container-6 {
+  background: #107125;
+
+  /* Rectangle 7 */
+
+  position: absolute;
+  width: 1296px;
+  height: 64px;
+  left: 0px;
+  top: 3396px;
+
+  background: #107125;
+
+}
+
+.group {
+  /* Group */
+
+  position: absolute;
+  left: 41.41%;
+  right: 56.25%;
+  top: 11.64%;
+  width: 50px;
+  bottom: 0.85%;
+
+
+}
+
+.plantville-all-rights-reserved {
+  /* 2024, Plantville. All rights reserved */
+
+  position: absolute;
+  width: 266px;
+  height: 24px;
+  left: 599px;
+  top: 19px;
+
+  /* Body/Medium/Body 2 */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: right;
+
+  color: #FFFFFF;
+
+
+}
