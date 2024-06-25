@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="register_page.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/register_page.css') }}">
 </head>
 <body>
     <body>
 
         <div class="welcome-to-plantville">
-            <img src="joinus.png" alt="join us now">
+            <img src="{{ url_for('static', filename='images/joinus.png')}}" alt="join us now">
         </div>
             <div class="wrapper">
                 <form action="">
                 <div class="logo">
-                    <img src="logo.png" alt="Plantville Logo">
+                    <img src="{{ url_for('static', filename='images/logo.png')}}" alt="Plantville Logo">
                     <h1>Plantville</h1>
                 </div>
                     <div class="input-box">
