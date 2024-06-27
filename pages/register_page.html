@@ -7,31 +7,34 @@
     <link rel="stylesheet" href="register_page.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/logo.png')}}">
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/register_page.css') }}">
 </head>
 <body>
     <body>
-
+        {% if msg %}
+            <p>{{ msg }}</p>
+        {% endif %}
         <div class="welcome-to-plantville">
             <img src="{{ url_for('static', filename='images/joinus.png')}}" alt="join us now">
         </div>
             <div class="wrapper">
-                <form action="">
+                <form action="\" method = "POST">
                 <div class="logo">
                     <img src="{{ url_for('static', filename='images/logo.png')}}" alt="Plantville Logo">
                     <h1>Plantville</h1>
                 </div>
                     <div class="input-box">
-                        <input type="text" placeholder="Username" required>
+                        <input type="text" id="username" placeholder="Username" required>
                         <box-icon type='solid' name='user'><i class="bx bx-user"></i></box-icon>
                     </div>
                     <div class="input-box">
-                        <input type="text" placeholder="Email" required>
+                        <input type="text" id="email" placeholder="Email" required>
                         <box-icon type='solid' name='user'><i class='bx bxl-gmail'></i>
                     </div>
     
                     <div class="input-box">
-                        <input type="password" placeholder="New Password" required>
+                        <input type="password" id="password" placeholder="New Password" required>
                         <i class="bx bx-lock-alt"></i>
                     </div>
                     <div class="input-box">
@@ -41,7 +44,7 @@
                     <button type="submit" class="btn">Sign up</button>
                     <div class="register-link">
                         <p>Already have an account!
-                        <a href="login_page.html"> Sign in </a></p>
+                        <a href="\"> Sign in </a></p> 
                     </div>
                 </form>
             </div>    
@@ -50,3 +53,4 @@
     </body>
 </body>
 </html>
+
